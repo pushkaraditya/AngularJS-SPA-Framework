@@ -19,6 +19,10 @@
             ctrl.setRoute(scope.route);
           });
         });
+
+        scope.isActive = function () {
+          return el === ctrl.getActiveItem();
+        };
       }
     }
   });
