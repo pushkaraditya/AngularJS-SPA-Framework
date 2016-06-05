@@ -94,10 +94,17 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\app.css" />
+    <Content Include="app\appConfig.js" />
     <Content Include="app\appModule.js" />
     <Content Include="ext-modules\psDashboard\psDashboardModule.js" />
+    <Content Include="ext-modules\psFramework\psFramework.css" />
+    <Content Include="ext-modules\psFramework\psFrameworkController.js" />
+    <Content Include="ext-modules\psFramework\psFrameworkDirective.js" />
     <Content Include="ext-modules\psFramework\psFrameworkModule.js" />
+    <Content Include="ext-modules\psFramework\psFrameworkTemplate.html" />
     <Content Include="ext-modules\psMenu\psMenuModule.js" />
+    <Content Include="images\photo.jpg" />
     <Content Include="packages.config" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
