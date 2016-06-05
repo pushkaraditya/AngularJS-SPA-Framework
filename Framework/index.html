@@ -9,20 +9,34 @@
   <link href="Content/font-awesome.min.css" rel="stylesheet" />
   <link href="app/app.css" rel="stylesheet" />
   <link href="ext-modules/psFramework/psFramework.css" rel="stylesheet" />
+  <link href="ext-modules/psMenu/psMenu.css" rel="stylesheet" />
 
   <script src="scripts/jquery-2.2.3.min.js"></script>
   <script src="scripts/angular.min.js"></script>
 
   <script src="ext-modules/psMenu/psMenuModule.js"></script>
+  <script src="ext-modules/psMenu/psMenuController.js"></script>
+  <script src="ext-modules/psMenu/psMenuDirective.js"></script>
+  <script src="ext-modules/psMenu/psMenuItemDirective.js"></script>
+
   <script src="ext-modules/psDashboard/psDashboardModule.js"></script>
+
+
   <script src="ext-modules/psFramework/psFrameworkModule.js"></script>
   <script src="ext-modules/psFramework/psFrameworkController.js"></script>
   <script src="ext-modules/psFramework/psFrameworkDirective.js"></script>
   <script src="app/appModule.js"></script>
+  <script src="app/appConfig.js"></script>
 </head>
 <body class="container-fluid">
   <ps-framework title="Darkwater Adventures"
                 subtitle="Administrative Application"
-                icon-file="/images/photo.jpg"></ps-framework>
+                icon-file="/images/photo.jpg">
+    <ps-menu>
+      <ps-menu-item label="Dashboard"></ps-menu-item>
+      <ps-menu-item label="Location"></ps-menu-item>
+      <ps-menu-item label="Raft Guides"></ps-menu-item>
+    </ps-menu>
+  </ps-framework>
 </body>
 </html>
