@@ -6,6 +6,6 @@
   <i ng-class="{'fa-rotate-270':isOpen}" ng-if="isVertical()"
      class="fa fa-chevron-left ps-group-indicator-left"></i>
 </li>
-<div ng-show="isOpen" class="ps-subitem-section" ng-class="{'ps-pop-up-menu':!isVertical()}">
+<div ng-show="isOpen" class="ps-subitem-section ps-fade-in-animation" ng-class="{'ps-pop-up-menu':!isVertical()}">
   <ul ng-transclude />
 </div>
