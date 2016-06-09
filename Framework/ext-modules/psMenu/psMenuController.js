@@ -21,7 +21,14 @@
       $scope.showMenu = data.show;
     });
 
+    this.setOpenMenuScope = function (scope) {
+      $scope.openMenuScope = scope;
+    };
+
     $scope.toggleMenuOrientation = function () {
+      if ($scope.openMenuScope)
+        $scope.openMenuScope.closeMenu();
+
       $scope.isVertical = !$scope.isVertical;
 
       $rootScope.$broadcast('ps-menu-orientation-changed-event', { isMenuVertical: $scope.isVertical });
@@ -30,5 +37,17 @@
     this.isVertical = function () {
       return $scope.isVertical;
     };
+
+    angular.element(document).bind('click', function (e) {
+      if ($scope.openMenuScope && !$scope.isVertical) {
+        if ($(e.target).parent().hasClass('ps-selectable-item'))
+          return;
+        $scope.$apply(function () {
+            $scope.openMenuScope.closeMenu();
+        });
+        e.preventDefault();
+        e.stopPropagation();
+      }
+    });
   });
 })();
