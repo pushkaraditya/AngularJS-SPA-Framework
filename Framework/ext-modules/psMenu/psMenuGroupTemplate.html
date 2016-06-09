@@ -3,7 +3,8 @@
     <i class="fa {{icon}} ps-menu-icon"></i>
     {{label}}
   </div>
-  <i class="fa fa-chevron-left ps-group-indicator-left" ng-class="{'fa-rotate-270':isOpen}"></i>
+  <i ng-class="{'fa-rotate-270':isOpen}" ng-if="isVertical()"
+     class="fa fa-chevron-left ps-group-indicator-left" ></i>
 </li>
 <div ng-show="isOpen" class="ps-subitem-section">
   <ul ng-transclude />
