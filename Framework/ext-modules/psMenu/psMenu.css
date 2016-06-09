@@ -3,18 +3,26 @@
   background-color: #333;
   color: #ccc;
   padding-left: 0;
+}
+
+.ps-menu-area-vertical {
   width: 200px;
   min-height: 100vh;
   padding-top: 30px;
 }
 
-.ps-menu-area ul{
-  padding-left:0;
+.ps-menu-area-horizontal {
+  width: 100vw;
+  height: 40px;
 }
 
-  .ps-menu-area .btn:hover {
-    color: #ccc;
-  }
+.ps-menu-area ul {
+  padding-left: 0;
+}
+
+.ps-menu-area .btn:hover {
+  color: #ccc;
+}
 
 .ps-menu {
   list-style-type: none;
@@ -46,11 +54,11 @@
   margin-right: 10px;
 }
 
-.ps-menu-active-indicator{
-  float:right;
-  color:#ddd;
-  margin-right:0px;
-  margin-top:8px;
+.ps-menu-active-indicator {
+  float: right;
+  color: #ddd;
+  margin-right: 0px;
+  margin-top: 8px;
 }
 
 .ps-noselect {
@@ -61,21 +69,29 @@
   user-select: none;
 }
 
-.ps-group-indicator-left{
-  float:right;
-  color:#ddd;
-  margin-right:2px;
-  margin-top:15px;
+.ps-group-indicator-left {
+  float: right;
+  color: #ddd;
+  margin-right: 2px;
+  margin-top: 15px;
 }
 
-.ps-subitem-section{
-  padding-left:16px;
+.ps-subitem-section {
+  padding-left: 16px;
 }
 
-.ps-menu-layout-button{
-  margin:12px;
+.ps-menu-layout-button {
+  margin: 12px;
   padding: 2px 8px;
-  color:#bbb;
+  color: #bbb;
   background-color: #333;
   border: 1px solid #999;
+}
+
+.ps-item-horizontal {
+  display: inline-block;
+  width: 165px !important;
+  margin-left: 20px;
+  margin-top: 5px;
+  line-height: 1.5em !important;
 }

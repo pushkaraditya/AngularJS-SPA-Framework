@@ -23,6 +23,10 @@
         scope.isActive = function () {
           return el === ctrl.getActiveItem();
         };
+
+        scope.isVertical = function () {
+          return ctrl.isVertical();
+        };
       }
     }
   });

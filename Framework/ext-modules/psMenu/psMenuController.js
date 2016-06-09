@@ -26,5 +26,9 @@
 
       $rootScope.$broadcast('ps-menu-orientation-changed-event', { isMenuVertical: $scope.isVertical });
     };
+
+    this.isVertical = function () {
+      return $scope.isVertical;
+    };
   });
 })();

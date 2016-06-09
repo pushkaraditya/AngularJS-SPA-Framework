@@ -20,6 +20,10 @@
         scope.closeMenu = function () {
           scope.isOpen = false;
         };
+
+        scope.isVertical = function () {
+          return ctrl.isVertical();
+        };
       }
     };
   });
