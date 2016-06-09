@@ -41,7 +41,12 @@
     };
 
     var broadcastMenuState = function () {
-      $rootScope.$broadcast('ps-menu-show', { show: $scope.isMenuVisible });
+      $rootScope.$broadcast('ps-menu-show',
+        {
+          show: $scope.isMenuVisible,
+          isVertical: $scope.isMenuVertical,
+          allowHorizontalToggle: !$scope.isMenuButtonVisible
+        });
     };
 
     $timeout(function () {
