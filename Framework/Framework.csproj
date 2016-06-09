@@ -119,6 +119,8 @@
     </Content>
     <Content Include="scripts\ai.0.22.18-build01884.js" />
     <Content Include="scripts\ai.0.22.18-build01884.min.js" />
+    <Content Include="scripts\angular-animate.js" />
+    <Content Include="scripts\angular-animate.min.js" />
     <Content Include="scripts\jquery-2.2.3.min.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
