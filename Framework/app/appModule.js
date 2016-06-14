@@ -1,5 +1,5 @@
 ﻿"use strict";
 
 (function () {
-  angular.module("app", ["psFramework"]);
+  angular.module("app", ["ngRoute", "psFramework"]);
 })();

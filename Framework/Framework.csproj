@@ -97,6 +97,10 @@
     <Content Include="app\app.css" />
     <Content Include="app\appConfig.js" />
     <Content Include="app\appModule.js" />
+    <Content Include="app\appRouteConfig.js" />
+    <Content Include="app\directives\dwaDashboardDirective.js" />
+    <Content Include="app\directives\dwaGuidesDirective.js" />
+    <Content Include="app\directives\dwaLocationsDirective.js" />
     <Content Include="ext-modules\psDashboard\psDashboardModule.js" />
     <Content Include="ext-modules\psFramework\psFramework.css" />
     <Content Include="ext-modules\psFramework\psFrameworkController.js" />

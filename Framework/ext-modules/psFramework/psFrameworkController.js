@@ -2,7 +2,8 @@
 "use strict";
 
 (function () {
-  angular.module("psFramework").controller("psFrameworkController", function ($scope, $window, $timeout, $rootScope) {
+  angular.module("psFramework").controller("psFrameworkController",
+    function ($scope, $window, $timeout, $rootScope, $location) {
     $scope.isMenuVisible = true;
     $scope.isMenuButtonVisible = true;
     $scope.isMenuVertical = true;
@@ -11,6 +12,7 @@
       $scope.routeString = data.route;
       checkWidth();
       broadcastMenuState();
+      $location.path(data.route);
     });
 
     $scope.$on('ps-menu-orientation-changed-event', function (evt, data) {
