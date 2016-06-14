@@ -101,7 +101,11 @@
     <Content Include="app\directives\dwaDashboardDirective.js" />
     <Content Include="app\directives\dwaGuidesDirective.js" />
     <Content Include="app\directives\dwaLocationsDirective.js" />
+    <Content Include="Content\angular-gridster.min.css" />
+    <Content Include="ext-modules\psDashboard\psDashboard.css" />
+    <Content Include="ext-modules\psDashboard\psDashboardDirective.js" />
     <Content Include="ext-modules\psDashboard\psDashboardModule.js" />
+    <Content Include="ext-modules\psDashboard\psDashboardTemplate.html" />
     <Content Include="ext-modules\psFramework\psFramework.css" />
     <Content Include="ext-modules\psFramework\psFrameworkController.js" />
     <Content Include="ext-modules\psFramework\psFrameworkDirective.js" />
@@ -125,9 +129,14 @@
     <Content Include="scripts\ai.0.22.18-build01884.min.js" />
     <Content Include="scripts\angular-animate.js" />
     <Content Include="scripts\angular-animate.min.js" />
+    <Content Include="scripts\angular-gridster.min.js" />
+    <Content Include="scripts\angular-mocks.js" />
     <Content Include="scripts\angular-route.js" />
     <Content Include="scripts\angular-route.min.js" />
+    <Content Include="scripts\angular.js" />
+    <Content Include="scripts\angular.min.js" />
     <Content Include="scripts\jquery-2.2.3.min.map" />
+    <Content Include="scripts\angular.min.js.map" />
     <Content Include="scripts\angular-animate.min.js.map" />
     <Content Include="scripts\angular-route.min.js.map" />
     <None Include="Web.Debug.config">
@@ -160,10 +169,6 @@
     <Content Include="fonts\fontawesome-webfont.ttf" />
     <Content Include="fonts\fontawesome-webfont.svg" />
     <Content Include="fonts\fontawesome-webfont.eot" />
-    <Content Include="scripts\angular-mocks.js" />
-    <Content Include="scripts\angular.js" />
-    <Content Include="scripts\angular.min.js" />
-    <Content Include="scripts\angular.min.js.map" />
     <None Include="scripts\jquery-2.2.3.intellisense.js" />
     <Content Include="scripts\bootstrap.js" />
     <Content Include="scripts\bootstrap.min.js" />
