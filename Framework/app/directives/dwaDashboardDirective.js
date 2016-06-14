@@ -8,6 +8,8 @@ angular.module("app").directive('dwaDashboard', function () {
     template: '<ps-dashboard></ps-dashboard>',
     link: function (scope) {
 
+      scope.title = "My first dashboard";
+
       scope.gridsterOpts = {
         columns: 12,
         margins: [20, 20],
