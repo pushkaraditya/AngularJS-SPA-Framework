@@ -1,0 +1,17 @@
+﻿<div class="dwa-temperature-widget">
+  <div class="dwa-temperature-heading">
+    <img class="dwa-temperature-icon" ng-src="images/therm-icon.png" alt="thermometer" />
+    <span class="dwa-temperature-title">Temp</span>
+  </div>
+
+  <div class="dwa-temperature-body" style="background-image: url(/images/{{selectedLocation.image}})">
+    <div class="dwa-temperature-view">
+      <div class="dwa-temperature-river-name">
+        {{selectedLocation.name}}
+      </div>
+      <div class="dwa-temperature-degrees">
+        {{selectedLocation.temperature}}°
+      </div>
+    </div>
+  </div>
+</div>

@@ -102,6 +102,9 @@
     <Content Include="app\directives\dwaGuidesDirective.js" />
     <Content Include="app\directives\dwaLocationsDirective.js" />
     <Content Include="app\services\dataService.js" />
+    <Content Include="app\widgets\dwaTemperature\dwaTemperature.css" />
+    <Content Include="app\widgets\dwaTemperature\dwaTemperatureDirective.js" />
+    <Content Include="app\widgets\dwaTemperature\dwaTemperatureTemplate.html" />
     <Content Include="Content\angular-gridster.min.css" />
     <Content Include="ext-modules\psDashboard\psDashboard.css" />
     <Content Include="ext-modules\psDashboard\psDashboardDirective.js" />
@@ -180,7 +183,10 @@
   <ItemGroup>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="app\widgets\dwaEmployee\" />
+    <Folder Include="app\widgets\dwaInventory\" />
+  </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
