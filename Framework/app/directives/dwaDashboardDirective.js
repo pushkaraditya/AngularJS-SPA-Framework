@@ -19,12 +19,14 @@ angular.module("app").directive('dwaDashboard', function () {
 
       scope.widgets = [
         {
+          title:'First',
           sizeX: 3,
           sizeY: 3,
           row: 0,
           col: 0
         },
         {
+          title:'Second',
           sizeX: 2,
           sizeY: 4,
           row: 0,
